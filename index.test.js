@@ -14,6 +14,7 @@ describe('index.js', () => {
             expect(parserOptions).toHaveProperty('ecmaFeatures');
             const { ecmaFeatures } = parserOptions;
             expect(ecmaFeatures).toHaveProperty('jsx', true);
+            expect(parserOptions).toHaveProperty('sourceType', 'module');
         });
         describe('Exports correct env', () => {
             test('Node support is enabled', () => {
