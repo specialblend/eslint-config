@@ -1,0 +1,9 @@
+{
+    "extends": "./src/base.json",
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "env": {
+        "node": true
+    }
+}
