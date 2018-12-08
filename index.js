@@ -1,3 +1,3 @@
-const config = require('./src/base.json');
+const config = require('./src/.eslintrc');
 
 module.exports = config;
