@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,13 @@
     "url": "https://github.com/SpecialBlend/eslint-config-specialblend/issues"
   },
   "homepage": "https://github.com/SpecialBlend/eslint-config-specialblend#readme",
-  "peerDependencies": {
-    "eslint": "^5.x.x"
-  },
   "dependencies": {
     "eslint": "^5.x.x",
     "eslint-plugin-babel": "^5.x.x",
     "eslint-plugin-react": "^7.x.x"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.x.x"
   }
 }
