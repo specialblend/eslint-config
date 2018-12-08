@@ -150,7 +150,7 @@
     "new-cap": 2,
     "newline-after-var": [
       2,
-      "never"
+      "always"
     ],
     "no-array-constructor": 2,
     "no-continue": 2,
