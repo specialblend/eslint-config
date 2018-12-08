@@ -32,7 +32,6 @@
     "generator-star-spacing": 2,
     "guard-for-in": 2,
     "handle-callback-err": 2,
-    "id-length": 2,
     "indent": 2,
     "init-declarations": [2, "always"],
     "key-spacing": 2,
