@@ -42,7 +42,6 @@
     "max-len": 2,
     "max-nested-callbacks": 2,
     "max-params": 2,
-    "max-statements": 2,
     "new-cap": 2,
     "no-alert": 2,
     "no-array-constructor": 2,
