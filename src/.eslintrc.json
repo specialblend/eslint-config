@@ -2,7 +2,7 @@
   "rules": {
     "comma-dangle": [
       2,
-      "always"
+      "always-multiline"
     ],
     "no-cond-assign": [
       2,
@@ -148,7 +148,10 @@
     "linebreak-style": 2,
     "max-nested-callbacks": 2,
     "new-cap": 2,
-    "newline-after-var": 2,
+    "newline-after-var": [
+      2,
+      "never"
+    ],
     "no-array-constructor": 2,
     "no-continue": 2,
     "no-inline-comments": 2,
@@ -162,7 +165,10 @@
     "no-trailing-spaces": 2,
     "no-underscore-dangle": 2,
     "no-unneeded-ternary": 2,
-    "object-curly-spacing": 2,
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
     "one-var": [
       "error",
       "never"
@@ -183,6 +189,7 @@
     ],
     "semi-spacing": 2,
     "semi": 2,
+    "semi-style": 2,
     "sort-vars": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [
