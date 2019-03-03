@@ -19,5 +19,13 @@
     "react": {
       "version": "15.0"
     }
+  },
+  "rules": {
+    "no-underscore-dangle": "off",
+    "func-style": "warn",
+    "func-names": "warn",
+    "no-undefined": "warn",
+    "no-process-env": "warn",
+    "no-process-exit": "warn"
   }
 }
