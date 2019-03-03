@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-specialblend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "ESLint configuration for Node.js projects",
   "main": "index.js",
   "scripts": {
     "test": "jest .",
