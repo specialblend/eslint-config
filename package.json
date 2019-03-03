@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-specialblend",
+  "name": "@specialblend/eslint-config",
   "version": "0.0.0",
   "description": "ESLint configuration for Node.js projects",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpecialBlend/eslint-config-specialblend.git"
+    "url": "git+https://github.com/SpecialBlend/eslint-config.git"
   },
   "author": "cj@specialblend.net",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpecialBlend/eslint-config-specialblend/issues"
+    "url": "https://github.com/SpecialBlend/eslint-config/issues"
   },
-  "homepage": "https://github.com/SpecialBlend/eslint-config-specialblend#readme",
+  "homepage": "https://github.com/SpecialBlend/eslint-config#readme",
   "dependencies": {
     "eslint": "^5.x.x",
     "eslint-plugin-babel": "^5.x.x",
