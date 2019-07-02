@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpecialBlend/eslint-config.git"
+    "url": "git+https://github.com/specialblend/eslint-config.git"
   },
   "author": "cj@specialblend.net",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpecialBlend/eslint-config/issues"
+    "url": "https://github.com/specialblend/eslint-config/issues"
   },
-  "homepage": "https://github.com/SpecialBlend/eslint-config#readme",
+  "homepage": "https://github.com/specialblend/eslint-config#readme",
   "dependencies": {
     "eslint": "^5.x.x",
     "eslint-plugin-babel": "^5.x.x",
@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "eslint-plugin-jest": "^22.1.2",
-    "jest": "^23.x.x"
+    "jest": "^24.8.0"
   }
 }
