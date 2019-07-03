@@ -1,2 +1,3 @@
-const config = require('./.eslintrc');
-module.exports = config;
+const nodeConfig = require('./node.js');
+
+module.exports = nodeConfig;
