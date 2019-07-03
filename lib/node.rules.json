@@ -1,0 +1,9 @@
+{
+  "global-require": 2,
+  "no-console": 0,
+  "no-new-require": 2,
+  "no-path-concat": 2,
+  "no-process-env": 0,
+  "no-process-exit": 2,
+  "no-sync": 1
+}
