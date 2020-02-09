@@ -1,7 +1,16 @@
 {
   "extends": [
-    "../node"
+    "../node",
+    "plugin:@typescript-eslint/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
   "plugins": ["@typescript-eslint"],
   "rules": {
     "@typescript-eslint/adjacent-overload-signatures": "error",
