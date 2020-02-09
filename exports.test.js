@@ -1,6 +1,6 @@
 const main = require('./index');
 const react = require('./react');
-const node = require('./node');
+const node = require('./node/.eslintrc');
 const lambda = require('./lambda');
 
 describe('package root files', () => {
