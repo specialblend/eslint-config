@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "../node",
+    "../typescript"
+  ],
+  "rules": {
+    "@typescript-eslint/no-var-requires": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.jsx"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "error"
+      }
+    }
+  ]
+}
