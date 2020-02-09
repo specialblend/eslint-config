@@ -9,8 +9,9 @@
     "check": "true"
   },
   "files": [
-    "node/",
-    "typescript/",
+    "node",
+    "typescript",
+    "mixed",
     ".eslintrc"
   ],
   "repository": {
