@@ -5,6 +5,7 @@
     "jest": true,
     "amd": true
   },
+  "parser": "babel-eslint",
   "plugins": ["import", "simple-import-sort"],
   "rules": {
     "accessor-pairs": [2, {"getWithoutSet": false, "setWithoutGet": false}],
