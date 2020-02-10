@@ -171,5 +171,8 @@
     "prefer-rest-params": "error",
     "prefer-const": ["error", {"destructuring": "any", "ignoreReadBeforeAssign": true}],
     "simple-import-sort/sort": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
