@@ -5,7 +5,7 @@
     "jest": true,
     "amd": true
   },
-  "plugins": ["import"],
+  "plugins": ["import", "simple-import-sort"],
   "rules": {
     "accessor-pairs": [2, {"getWithoutSet": false, "setWithoutGet": false}],
     "array-bracket-spacing": 2,
@@ -169,6 +169,7 @@
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "no-empty-function": "off",
     "prefer-rest-params": "error",
-    "prefer-const": ["error", {"destructuring": "any", "ignoreReadBeforeAssign": true}]
+    "prefer-const": ["error", {"destructuring": "any", "ignoreReadBeforeAssign": true}],
+    "simple-import-sort/sort": "error"
   }
 }
