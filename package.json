@@ -2,7 +2,7 @@
   "name": "@specialblend/eslint-config",
   "version": "0.4.1",
   "description": "ESLint configuration for node projects",
-  "main": ".eslintrc.json",
+  "main": "index.js",
   "scripts": {
     "test": "true",
     "lint": "eslint .",
