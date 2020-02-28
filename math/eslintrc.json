@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "../node"
+  ],
+  "rules": {
+    "prefer-const": ["error", "never"],
+    "one-var": ["error", "always"],
+    "semi": ["error", "never"]
+  }
+}
