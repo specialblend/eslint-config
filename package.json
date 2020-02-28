@@ -10,8 +10,9 @@
   },
   "files": [
     "node",
-    "typescript",
+    "math",
     "mixed",
+    "typescript",
     ".eslintrc.json"
   ],
   "repository": {
