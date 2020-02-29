@@ -3,7 +3,7 @@
     "../node"
   ],
   "rules": {
-    "prefer-const": ["error", "never"],
+    "prefer-const": "off",
     "one-var": ["error", "always"],
     "semi": ["error", "never"]
   }
